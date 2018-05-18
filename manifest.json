@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    
+    "name": "back-to-right",
+    "version": "1.0",
+    "description": "Github back to rigth.",
+
+    "permissions": [
+        "https://github.com/"
+    ],
+    "content_scripts": [
+        {
+            "matches":    ["https://github.com/"],
+            "css":        ["fix.css"]
+        }
+    ]
+}
