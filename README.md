@@ -1,6 +1,6 @@
-# Github Back Right
+# Github go back on the right side
 
-Github dashboard sidebar is now back to right side ! 
+Sidebar is now back on the right side ! 
 
 [download](https://github.com/Alxios/github-back-right/blob/master/dist/back-right.crx)
 
