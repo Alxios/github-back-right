@@ -6,11 +6,14 @@
     "description": "Github back to rigth.",
 
     "permissions": [
-        "https://github.com/"
+        "https://github.com/*"
     ],
     "content_scripts": [
         {
-            "matches":    ["https://github.com/"],
+            "matches":    [
+                "https://github.com/", 
+                "https://github.com/dashboard/discover"
+            ],
             "css":        ["fix.css"]
         }
     ]
